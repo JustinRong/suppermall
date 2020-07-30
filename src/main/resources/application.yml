@@ -9,3 +9,8 @@ spring:
   jpa:
     open-in-view: false
     show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
